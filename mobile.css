@@ -1,0 +1,190 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, a, ul, li, article, aside, canvas, details, footer, header, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 13px;
+	font-weight: 300;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	color: black;
+}
+ul {
+	list-style: none;
+}
+body {
+	font-family: "Roboto",Arial,sans-serif;
+	line-height: 1.4;
+	background-color: rgb(200, 200, 200);
+	height: 100%;
+}
+header {
+	background: #fff;
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #aaa;
+	position: relative;
+}
+.icon {
+	position: absolute;
+	background-size: contain;
+	width: 24px;
+	height: 24px;
+}
+#menu {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAV0lEQVRIx+3VQQ0AIAwEwWo5Jfg3VUwQQsM0WQHz6VV31+QKAAAAAAAAAOAwIMlK0i8FAADwE+DFAwC4CfCFAAAALLEhA7DE3igAwL+ASQEAAAAAAIxuAySZPrhcy+LMAAAAAElFTkSuQmCC);
+	top: 11px;
+	left: 11px;
+}
+#title {
+	background-image: url(https://ssl.gstatic.com/android/market_images/web/logo_m_play.png);
+	display: block;
+	width: 160px;
+	height: 40px;
+	background-size: contain;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+}
+#search {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABSElEQVRYw+3Z0Q2DIBAGYEdwhOafwBEcwREYwRG6gSN0BEfoCIzgCIxAX3hoiCeCgIc5k3syNffBHYLtrLVdy9EJQAACeDAgdAHoASgAKwADwHph3D3VZbiyAgC8iaSpMADm2wEABgA6InE/NIDXLQCXvLmQ/P9sDFUBgeQ3V1KjF4u7RyFeNQGaSEKdaPaZwOsqADe6e7V8ugwOZlAVBbil0uSoYQKxlQaoK6NGlFPS81IBa+qIHSD8xv6UBPhTPmcALCmDEg1w9e9P95gBMPnPLQUYdwB9BsAogIgeaLeEmm/ipyyjNV5kk2wlHruZK7yd/rZ8oIlekjkdKW21VajQoX5OQbD5rEJsUYIINh+23O90LCI74OLbOBrBCpCCYAeIRbAExCDYAs4iWAPOINgDAog2AASijRIiEOlNLH/yCUAAAhBAKH4d6lEJvw9suwAAAABJRU5ErkJggg==);
+	top: 11px;
+	right: 11px;
+}
+nav {
+	width: 100%;
+	margin-top: 15px;
+	text-align: center;
+	display: block;
+}
+nav ul {
+	display: inline-block;
+	text-align: left;
+	height: 92px;
+}
+nav li {
+	display: inline-block;
+}
+nav a {
+	display: inline-block;
+	background-color: rgb(255,255,255);
+	width: 30px;
+	min-width: 148px;
+	height: 36px;
+	margin: 5px;
+	color: black;
+	border: 1px solid rgba(0,0,0,0.17);
+	border-radius: 2px;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.15);
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Roboto",sans-serif;
+	font-size: 14px;
+	line-height: 36px;
+	padding-right: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+.categorywrapper {
+	margin-top: 10px;
+}
+.categoryheader {
+	color: black;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: left;
+	padding: 5px;
+	display: block;
+	position: relative;
+}
+.categorydescription {
+	display: block;
+	position: relative;
+}
+.categorydescription a {
+	height: 58px;
+}
+.subtitle {
+	font-size: 13px;
+}
+.categorymore {
+	position: absolute;
+	right: 5px;
+	bottom: 10px;
+	width: 42px;
+	height: 30px;
+	font-size: 14px;
+	text-align: center;
+	background-color: rgb(26,161,225);
+	color: white;
+	border-radius: 2px;
+	padding: 0 13px;
+}
+.categorylist {
+	display: inline-block;
+}
+.bookcard {
+	width: 148;
+	height: 290;
+	margin: 5px;
+	display: inline-block;
+	text-align: left;
+	position: relative;
+}
+.bookcard > a {
+	width: 148px;
+	height: 290px;
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 1.4;
+	display: block;
+}
+.bookcardimg {
+	display: table-cell;
+	background-color: rgb(235,235,235);
+	width: 148px;
+	height: 225px;
+	vertical-align: middle;
+}
+.bookimg > img {
+	display: block;
+	max-width: 148px;
+	max-height: 225px;
+	margin: auto 0px;
+}
+.bookcardtext {
+	background-color: rgb(255, 255, 255);
+	width: 148px;
+	height: 75px;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.15);
+	border-radius: 2px;
+}
+.bookname {
+	display: block;
+	color: rgb(51,51,51);
+	width: 128px;
+	height: 18px;
+	padding: 7px 10px 0px 10px;
+	background-color: rgb(255,255,255);
+	overflow: hidden;
+}
+.bookauthor {
+	background-color: rgb(255,255,255);
+	width: 142px;
+	height: 20px;
+	padding: 1px 10px;
+	color: rgb(170,170,170);
+	font-size: 13px;
+}
+.bookprice {
+	color: rgb(26,161,225);
+	font-size: 13px;
+	line-height: 17px;
+	position: absolute;
+	right: 10px;
+	bottom: 3px;
+}
+footer {
+
+}
